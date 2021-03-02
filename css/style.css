@@ -23,15 +23,62 @@ ul{
     margin: 0 auto;
 }
 
-
-
 .header-menu{
     height: 118px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 18rem;
+    color:  #16133d;
+    border-bottom: 1px solid #efeef3;
 }
 
 .header-menu nav ul{
     display: flex;
+}
+
+.header-menu .header-menu__span{
+    margin-right: 61px;
+}
+
+.header-menu .cancel-margin{
+    margin: 0;
+}
+
+.header-buttons__span{
+    padding: 15px 35px;
+    border: 2px solid #16133d;
+    border-radius: 8px;
+    margin-right: 18px;
+}
+
+.header-buttons__span-color{
+    background-color: #16133d;
+    color: white;
+}
+
+.header-hero{
+    display: flex;
+}
+
+.header-text{
+    width: 50%;
+}
+
+.header-text h1{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 5.6rem;
+    line-height: 6.8rem;
+    letter-spacing: 0.2px;
+    color: #16133d;
+}
+
+.header-text p{
+    font-weight: 400;
+    font-size: 1.9rem;
+    line-height: 3.6rem;
+    color: #183b56;
 }
