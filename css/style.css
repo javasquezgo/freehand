@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    border: 1px solid black;
+    width: 1155px;
+    margin: 0 auto;
+}
+
+
+
+.header-menu{
+    height: 118px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu nav ul{
+    display: flex;
+}
