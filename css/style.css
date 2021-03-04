@@ -18,7 +18,6 @@ ul {
 }
 
 .container {
-  border: 1px solid black;
   width: 1155px;
   margin: 0 auto;
   padding-bottom: 150px;
@@ -76,6 +75,7 @@ ul {
   line-height: 6.8rem;
   letter-spacing: 0.2px;
   color: #16133d;
+  width: 31vw;
 }
 
 .header-text p {
@@ -84,6 +84,7 @@ ul {
   line-height: 3.6rem;
   color: #183b56;
   margin-bottom: 31px;
+  width: 31vw;
 }
 
 .text-buttons__span {
@@ -356,9 +357,10 @@ ul {
 }
 
 footer {
-  height: 1000px;
   background-color: #16133d;
   padding-top:89px ;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 footer .container{
@@ -366,33 +368,36 @@ footer .container{
   justify-content: space-between;
 }
 
-.footer-social{
+.footer-cont img{
+  height: auto;
+  width: auto;
+}
+
+.footer-cont p{
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 2.8rem;
   color: #efeef3;
-  width: 28.5rem;
+  width: 18vw;
+  margin-top: 2.8rem;
+  margin-bottom: 5.8rem;
 }
 
-.footer-social p{
-  margin-top: 28px;
-  margin-bottom: 58px;
+.cont-social img{
+  margin-right: 0.8rem;
 }
 
-.footer-list h2,
-.footer-contact h2{
+.footer-list h3,
+.footer-contact h3{
   font-weight: 400;
   font-size: 1.7rem;
   line-height: 2.4rem;
   letter-spacing: 2px;
   color: #efeef3;
+  margin-bottom: 2.8rem;
 }
 
-.footer-list ul{
-  margin-top: 38px;
-}
-
-.footer-list li{
+.footer-list ul li{
   margin-bottom: 20px;
 }
 
@@ -408,19 +413,18 @@ footer .container{
   font-size: 1.5rem;
   line-height: 1.7rem;
   color: #efeef3;
-  margin-top: 40px;
+  margin-bottom: 19px;
 }
 
-.contact-email{
-  font-weight: 400;
-  font-size: 2.5rem;
-  line-height: 2.9rem;
-  color: white;
+.footer-contact .contact-email{
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 2.9rem;
+    color: #efeef3;
+    margin-bottom: 28px;
 }
 
 .contact-image{
-  height: auto;
   display: flex;
   align-items: center;
-  margin-top: 28px;
 }
