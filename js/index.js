@@ -1,0 +1,1 @@
+const slideshow = new SlideShow('.slideshow', { timeout: 5000 });

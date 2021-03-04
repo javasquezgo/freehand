@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/javasquezgo/freehand/issues"
   },
-  "homepage": "https://github.com/javasquezgo/freehand#readme"
+  "homepage": "https://github.com/javasquezgo/freehand#readme",
+  "dependencies": {
+    "simple-slideshow": "^2.1.0"
+  }
 }
